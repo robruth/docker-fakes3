@@ -20,6 +20,11 @@ Current Version: v0.2.1
 	- Edit domain to reflect your own
 	- Edit /etc/hosts or add DNS to resolve <bucket>.<domain>.com to Docker host IP
 	
+	Make a bucket:
 	s3cmd mb s3://<bucket>
+	
+	Put a file:
 	s3cmd put <file> s3://<bucket>/<filename>
+
+	List a bucket:
 	s3cmd ls s3://<bucketname>
