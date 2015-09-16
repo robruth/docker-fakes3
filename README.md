@@ -9,6 +9,7 @@ Current Version: v0.2.1
 ## s3cmd on osx
 
 	git clone https://github.com/s3tools/s3cmd.git
+	cd s3cmd
 	python setup.py install
 	sudo python setup.py install
 	vi ~/.s3cfg
@@ -27,4 +28,4 @@ Current Version: v0.2.1
 	s3cmd put <file> s3://<bucket>/<filename>
 
 	List a bucket:
-	s3cmd ls s3://<bucketname>
+	s3cmd ls s3://<bucket>
