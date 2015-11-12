@@ -8,7 +8,7 @@ Current Version: v0.2.1
 	
 ## s3cmd on osx
 
-	Example s3cfg - <https://gist.github.com/robruth/f617baf3e4ba7b10fb50>
+	git clone https://github.com/s3tools/s3cmd.git
 	cd s3cmd
 	python setup.py install
 	sudo python setup.py install
@@ -16,7 +16,7 @@ Current Version: v0.2.1
 	
 	Example config:
 	
-	https://gist.github.com/robruth/c7a92bc8ed0b182d97c4
+	https://gist.github.com/robruth/f617baf3e4ba7b10fb50
 
 	- Edit domain to reflect your own
 	- Edit /etc/hosts or add DNS to resolve <bucket>.<domain>.com to Docker host IP
