@@ -8,7 +8,7 @@ Current Version: v0.2.1
 	
 ## s3cmd on osx
 
-	[Example s3cfg](https://gist.github.com/robruth/f617baf3e4ba7b10fb50)
+	Example s3cfg - <https://gist.github.com/robruth/f617baf3e4ba7b10fb50>
 	cd s3cmd
 	python setup.py install
 	sudo python setup.py install
