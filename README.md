@@ -1,6 +1,6 @@
 # docker-fakes3
 
-Current Version: v0.2.1
+Current Version: 1.2.0 
 
 ## run fakes3
 
