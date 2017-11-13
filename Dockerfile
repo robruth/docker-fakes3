@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && \
-	apt-get install -y ruby2.0
+	apt-get install -y ruby
 
 RUN gem install fakes3
 
